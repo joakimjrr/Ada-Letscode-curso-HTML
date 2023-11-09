@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Tabela de Alunos</h1>
+        <section id="estudantes">
+            <h2>Tabelas de Alunos</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>NOME</th>
+                        <th>E-MAIL</th>
+                        <th>MATRICULA</th>
+                    </tr>
+                </thead>
+
+                <body>
+                        <tr>
+                            <td>Carol</td>
+                            <td>carol@gmail.com</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Peter Parker</td>
+                            <td>peterparker@gmail.com</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Tony Stark</td>
+                            <td>tonyStarek@gmail.com</td>
+                            <td>3</td>
+                        </tr>
+                </body>
+
+            </table>
+
+
+        </section>
+
+        <section id="financas">
+            <h2>Tabela de controle financeiro</h2>
+            <table border="1">
+                <thead>
+                   <tr>
+                    <th>DATA</th>
+                    <th>TIPO</th>
+                    <th>DESCRIÇÃO</th>
+                    <th>VALOR</th>
+                   </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/06/22</td>
+                        <td colspan="2">DESPESAS</td>
+                        <!-- <td>ALMOÇO</td> -->
+                        <td>R$35,00</td>
+                    </tr>
+                    <tr> 
+                        <td>RECEITAS</td>
+                        <td>SALÁRIO</td>
+                        <td>R$3.708,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
